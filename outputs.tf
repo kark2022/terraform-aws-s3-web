@@ -17,5 +17,5 @@
 
 output "endpoint" {
   description = "Endpoint Information of the bucket"
-  value       = aws_s3_bucket_website_configuration.demo_bucket.website_endpoint
+  value       = aws_s3_bucket_website_configuration.demos_buckets.website_endpoint
 }
